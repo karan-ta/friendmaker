@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+
+
+
+  
+    <div id = "pitch" class = "container">
+  
+    </div>
+<div id = "pitchtag" class = "container">
+    <h1>
+
+      Get Married in style now 
+    </h1>
+
+<h2>
+
+Easily create an interesting matrimony profile and share with your close friends and family !
+</h2>
+<div id = "getmarried_button" class = "container">
+<a  style = "color:white;" class = "btn btn-large btn-info" href = "{{fburl}}">
+<i class="icon-facebook-sign icon-white"></i>
+Get Married Now</a>
+</div>
+<br/>
+<p class = "container tac promise">
+We will never read or share your data at any time .<a href = "/privacy">privacy policy</a> <br/>
+we will not even post anything on your wall unless you ask us to .<br/> 
+Your data is safely guarded by<a href = "http://kodeplay.com/#about"> our team of a few good men . </a>
+</p>
+</div>
+
+
+{% endblock %}
